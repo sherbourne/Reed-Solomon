@@ -114,7 +114,7 @@ int main()
 	  r[235]=(r[234]+2)%n; */
 	  
 	  // or randomly 
-	            for(i=0;i<(n-k)/2+1;i++)
+	            for(i=0;i<(n-k)/2;i++)
 	                 r[rand()%n]=rand()%n;  
 	  
 	  
